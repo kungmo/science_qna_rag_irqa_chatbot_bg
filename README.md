@@ -52,8 +52,8 @@
 * Необходими са инсталирани git и uv. Изтеглете шаблона от Git и създайте виртуална среда.
 
 ```bash
-git clone https://github.com/kungmo/science_qna_rag_irqa_chatbot.git
-cd science_qna_rag_irqa_chatbot
+git clone https://github.com/kungmo/science_qna_rag_irqa_chatbot_bg.git
+cd science_qna_rag_irqa_chatbot_bg
 uv init --python 3.13
 uv venv
 ```
