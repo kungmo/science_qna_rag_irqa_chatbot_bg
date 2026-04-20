@@ -252,10 +252,10 @@ print(f'Saved {len(docs_PDF)} document chunks to {output_filename}')
 
 # df_dic['문서'] = df_dic[['어휘', '뜻풀이']].apply(lambda x: '의 사전적 의미 : '.join(map(str, x)), axis=1)
 
-# # Indexing (Texts -> Embedding -> Store)
-# from langchain_community.document_loaders import DataFrameLoader
+# Indexing (Texts -> Embedding -> Store)
+from langchain_community.document_loaders import DataFrameLoader
 
-# loader = DataFrameLoader(df_dic, page_content_column="문서")
+loader = DataFrameLoader(df_dic, page_content_column="Документ")
 
 # docs_dic = loader.load()
 
