@@ -207,6 +207,9 @@ docs_PDF = PDF_sentences
 
 output_filename = os.path.join(BASE_DIR, "docs_PDF", "docs_PDF.pkl")
 
+# 디렉토리가 없으면 생성
+os.makedirs(os.path.dirname(output_filename), exist_ok=True)
+
 with open(output_filename, 'wb') as f:
     pickle.dump(docs_PDF, f)
 
