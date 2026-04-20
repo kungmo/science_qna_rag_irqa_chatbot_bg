@@ -71,7 +71,7 @@ uv pip install -r requirements.txt
 
 * Инсталирайте Python пакетите за обработка на изображения.
 
-За Windows: ```pip install python-magic-bin```
+За Windows: ```uv add python-magic-bin```
 
 За Linux: ```apt install libmagic``` (за Ubuntu/Debian)
 
