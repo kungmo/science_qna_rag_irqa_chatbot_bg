@@ -1,5 +1,0 @@
-GOOGLE_API_KEY=input_your_Gemini_API_key_starts_with_AI...
-DB_HOST=127.0.0.1
-DB_USER=input_your_id_here
-DB_PASSWORD=input_your_password_here
-DB_NAME=chatbot_datalog
