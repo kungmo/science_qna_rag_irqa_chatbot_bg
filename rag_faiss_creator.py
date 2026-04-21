@@ -225,7 +225,7 @@ def cleanup_model(embeddings_model):
 def create_and_save_vectorstore(
         documents: List[Document],
         save_path: str,
-        model_name: str = 'mihaylov/bert-base-nli-theseus-bg',
+        model_name: str = 'usmiva/bert-web-bg',
         device: str = 'cpu', # 'cuda' 또는 'cpu'
         normalize_embeddings: bool = True
 ) -> FAISS:
