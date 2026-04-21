@@ -266,7 +266,7 @@ from langchain_community.vectorstores.utils import DistanceStrategy
 from langchain_huggingface import HuggingFaceEmbeddings
 
 embeddings_model = HuggingFaceEmbeddings(
-    model_name='nlpai-lab/KURE-v1',
+    model_name='mihaylov/bert-base-nli-theseus-bg',
     model_kwargs={'device':'cpu'}, # 'cuda' 또는 'cpu'
     encode_kwargs={'normalize_embeddings':True},
 )

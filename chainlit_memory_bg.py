@@ -400,7 +400,7 @@ def create_dynamic_system_prompt(
 
 # 임베딩 모델 초기화
 embeddings_model = HuggingFaceEmbeddings(
-    model_name='nlpai-lab/KURE-v1',
+    model_name='mihaylov/bert-base-nli-theseus-bg',
     model_kwargs={'device': 'cpu'},
     encode_kwargs={'normalize_embeddings': True},
 )
